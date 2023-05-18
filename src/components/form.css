@@ -1,0 +1,49 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 1rem;
+    gap: 10px;
+    margin-top: 1rem;
+}
+.textarea-comment{
+    resize: none;
+}
+.input-name,
+.textarea-comment{
+    transition: 0.3s all linear;
+    border-radius: 15px;
+    border: 2px solid #f5f5f5;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.input-name:focus,
+.textarea-comment:focus,
+.input-name:active,
+.textarea-comment:active{
+    background-color: #03001C;
+    color: #f5f5f5;
+    outline: none;
+    border: 2px solid #f5f5f5;
+}
+.btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Wix Madefor Display', sans-serif;
+    background: transparent;
+    color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.3s all linear;
+}
+.btn:hover,
+.btn:active{
+    background-color: #f5f5f5;
+    color: #03001C;
+    outline: none;
+}
